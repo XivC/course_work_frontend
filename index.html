@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rick and Morthy adventures</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body onload="init()">
+<h1>Курсовая работа по "информационным системам и базам данных"</h1>
+<h2>Дыбов Артём P33101, Рогачёва Дарья P33111</h2>
+<h3>Сгенерировать приключение</h3>
+<label for="universe_sel">Вселенная: </label><select required id="universe_sel"></select>
+<br>
+<label for="adv_name">Название приключения: </label><input id="adv_name" type="text">
+<br>
+<label for="team_name">Название команды: </label><input id="team_name" type="text">
+<br>
+<button onclick="gen_adventure()">Сгенерировать</button>
+<h3>Список приключений</h3>
+<div id="adv_list_table"></div>
+</body>
+</html>
