@@ -1,3 +1,5 @@
 Фронт для курсовой по Базам Данных
-Приложение построено по архитектуре FFFDIC "Faster, Faster, Faster! Deadline is coming!!!"
+
+Приложение построено по архитектуре FFFDIC: "Faster, Faster, Faster! Deadline is coming!!!"
+
 Ходят слухи, что файл app.js без индусского акцента не читается
